@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Estilo de letras de google -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Llamado a hoja de estilos -->
+    <link href="style.css" rel="stylesheet" />
+
+    <title>Contacto</title>
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <h1>Mi primera Web</h1>
+    <!-- Menu -->
+    <ul>
+      <li>Inicio</li>
+      <li>Contenidos</li>
+      <li>Contacto</li>
+    </ul>
+    <hr />
+    <!-- Contenido de Contacto -->
+    <h2>Contacto</h2>
+    <form>
+      <p>
+        <label for="nombre">nombre</label><br />
+        <input type="text" name="nombre" />
+      </p>
+      <p>
+        <label for="biografia">Biografia</label><br />
+        <textarea name="biografia"></textarea>
+      </p>
+      <p>
+        <label for="edad">Edad</label><br />
+        <select name="edad" id="">
+          <option value="mayor">Mayor de edad</option>
+          <option value="adulto">Adulto</option>
+          <option value="65">Mayor a 65 años</option>
+        </select>
+      </p>
+      <input type="submit" value="Enviar Email"/> 
+    </form>
+  </body>
+</html>

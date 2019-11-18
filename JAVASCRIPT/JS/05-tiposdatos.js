@@ -13,4 +13,5 @@ var cadena_texto = "Hola 'que'  tal";
 var verdadero = true; //Tipo de dato boolean
 var falso = false; //Tipo de dato boolean
 
-console.log(cadena_texto);
+// console.log(cadena_texto);
+console.log(typeof (verdadero));

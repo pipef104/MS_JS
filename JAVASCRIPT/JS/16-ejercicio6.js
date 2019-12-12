@@ -8,7 +8,7 @@ while (isNaN(numero)) {
   numero = parseInt(prompt("Introduce un numero",0));
 }
 
-if (numero%2) {
+if (numero%2 == 0) {
   alert(numero + " es par.");
 }else{
   alert(numero + " es inpar.");

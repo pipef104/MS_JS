@@ -28,7 +28,24 @@ haciendo que salga en pantalla cada uno de los atributos del arreglo*/
 document.write("<h1>Lenguajes de programación del 2018</h1>");
 document.write("<br>");
 document.write("<ul>");
-for (var i = 0; i < lenguajes.length; i++) {
+/*for (var i = 0; i < lenguajes.length; i++) {
   document.write("<li>" + lenguajes[i] + "</li>");
+}*/
+/*
+lenguajes.forEach((elemento,index)=>{
+  document.write("<li>" + index +" - "+ elemento+ "</li>");
+});
+*/
+for (let lenguaje in lenguajes) {
+  document.write("<li>"+ lenguajes[lenguaje]+ "</li>");
+  
 }
 document.write("</ul>");
+
+
+//Busquedas
+
+var busqueda = lenguajes.find(lenguaje => lenguaje == "PHP"
+);
+
+console.log(busqueda);
